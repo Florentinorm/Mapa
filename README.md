@@ -1,5 +1,5 @@
 # Mapa
 Api MapBox
 
-npm i
+npm i,
 ng serve
