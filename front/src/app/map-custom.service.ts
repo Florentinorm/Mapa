@@ -112,7 +112,7 @@ export class MapCustomService {
         padding: 100
       })
 
-      this.socket.emit('find-driver', {points: route});
+      this.socket.emit('find-driver',  {points: route});
 
     });
 
@@ -123,9 +123,9 @@ export class MapCustomService {
     console.log('----->', coords)
     const el = document.createElement('div');
     el.className = 'marker';
-    if (!this.markerDriver) {
+   if (!this.markerDriver) {
       this.markerDriver = new mapboxgl.Marker(el);
-    } else {
+  } else {
       this.markerDriver
         .setLngLat(coords)
         .addTo(this.map);

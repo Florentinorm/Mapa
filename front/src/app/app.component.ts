@@ -62,7 +62,7 @@ export class AppComponent implements OnInit {
   }
 
   testMarker(): void {
-    this.mapCustomService.addMarkerCustom([-8.628139488926513, 41.159082702543635]);
+    this.mapCustomService.addMarkerCustom([ -100.93077352849643, 21.167415119259953]);
   }
 }
 
